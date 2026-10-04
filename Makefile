@@ -115,7 +115,8 @@ CXX_WARNINGS = \
   -Wsuggest-override \
   -Wzero-as-null-pointer-constant \
   -Wno-dangling-reference \
-  -Wno-c++20-compat
+  -Wno-c++20-compat \
+  -Wno-array-bounds
 ifeq ($(NATIVE), emscripten)
   # The EM_ASM macro triggers this warning.
   WARNINGS += -Wno-gnu-zero-variadic-macro-arguments
