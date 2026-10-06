@@ -38,7 +38,7 @@ way is to simply place your Cataclysm executable into your
 git repository.
 It will automatically use this altered path to load resources.
 For more advanced situations, there are commandline parameters such as
-`--datadir`, which you can point at your git respository.
+`--datadir`, which you can point at your git repository.
 Check `--help` for more information.
 
 You should also use an up-to-date version of Cataclysm and ensure that
