@@ -4,7 +4,7 @@
 
 #include <memory>
 
-#if __GLIBCXX__
+#if defined(__GLIBCXX__) && !(defined(__GNUC__) && __GNUC__ >= 16)
 template<typename T> using shared_ptr_fast = std::__shared_ptr<T, __gnu_cxx::_S_single>;
 template<typename T> using weak_ptr_fast = std::__weak_ptr<T, __gnu_cxx::_S_single>;
 template<typename T, typename... Args> shared_ptr_fast<T> make_shared_fast(
