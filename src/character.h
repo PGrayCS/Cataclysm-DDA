@@ -570,6 +570,14 @@ class Character : public Creature, public visitable
         int int_max;
         int per_max;
 
+        // A simple counter for how much trauma has been experienced. One point here is worth the same amount as one "guilt kill".
+        // This value is added to "deadening" from guilt kills to get the total amount of deadening a character has.
+        // A traumatic event may increase this counter by more than one!
+        int trauma_counter = 0;
+
+        // Prevents trauma from going negative or exceeding its defined maximum.
+        void clamp_trauma();
+
     public:
         // Used to display pain penalties
         int ppen_str;
@@ -577,6 +585,10 @@ class Character : public Creature, public visitable
         int ppen_int;
         int ppen_per;
         int ppen_spd;
+
+        int get_trauma() const;
+        void mod_trauma( int amt );
+        void set_trauma( int amt );
 
         // Legacy value, used by several mods via eoc.
         int kill_xp = 0;
@@ -3393,7 +3405,6 @@ class Character : public Creature, public visitable
         std::map<mtype_id, int> const &get_moncams() const;
         using cached_moncam = std::pair<monster const *, tripoint_abs_ms>;
         using moncam_cache_t = cata::flat_set<cached_moncam>;
-        moncam_cache_t moncam_cache;
         moncam_cache_t get_active_moncams() const;
 
         void spores();
