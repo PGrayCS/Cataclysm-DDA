@@ -124,7 +124,7 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_BIOKINETIC_CHANNELING_FAILURE",
-    "//": "Once focus becomes more persistant and doesn't immediately drop to 25 on doing basically anything, low focus should also make overload more likely",
+    "//": "Once focus becomes more persistent and doesn't immediately drop to 25 on doing basically anything, low focus should also make overload more likely",
     "eoc_type": "EVENT",
     "required_event": "spellcasting_finish",
     "condition": {

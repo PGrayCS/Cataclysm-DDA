@@ -4636,7 +4636,7 @@ void map::bash_ter_furn( const tripoint_bub_ms &p, bash_params &params, bool rep
                 supported = true;
             }
         }
-        // Semi-persistant map damage. Increment by one for each bash over smin
+        // Semi-persistent map damage. Increment by one for each bash over smin
         // Gradually makes hard bashes easier
         int damage = get_map_damage( tripoint_bub_ms( p ) );
         int damage_dealt = bash->damage_to( params.strength, supported, blocked );
