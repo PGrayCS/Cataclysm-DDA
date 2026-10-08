@@ -451,7 +451,7 @@
     "type": "talk_topic",
     "dynamic_line": {
       "math": [ "exodii_FM_antagonized >= 5" ],
-      "yes": "&Rubik unceremoniously shuts off the the screen, leaving nothing but static.  Smokes leans back in his chair, wiping his brow.  \"Well, that didn't go well.  Something tells me it isn't gonna work out, and it's for the best.\"",
+      "yes": "&Rubik unceremoniously shuts off the screen, leaving nothing but static.  Smokes leans back in his chair, wiping his brow.  \"Well, that didn't go well.  Something tells me it isn't gonna work out, and it's for the best.\"",
       "no": {
         "math": [ "exodii_FM_annoyed >= 3" ],
         "yes": "&Rubik and Smokes finish their negotiation and agree to a complex set of terms.  Caravans will begin in about a week.  Rubik offers a stiff bow over the screen before it switches to static.  Smokes leans back, offering an easy smile.  \"Well, didn't expect that today, but that went well.  You were, uh, well, let's just say I think you should stick to scavenging, yeah?\"",

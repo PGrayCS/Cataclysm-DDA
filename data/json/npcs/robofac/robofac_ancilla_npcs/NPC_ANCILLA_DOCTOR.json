@@ -774,7 +774,7 @@
     "dynamic_line": "&You lay down on the exam table and lean back.  The spider-like surgical robot that, at first, appeared familiar to you, now feels alien, jerking in its movement, greedily grasping at your ports, plates, and wires.  You hear a bone saw start to loudly whirr, as the Doc goes through various tests.\n\n<color_light_red>You have a bad feeling about this.</color>",
     "responses": [
       {
-        "text": "<color_red>[Against your better judgment, let Doc Stevens restrain you on the the Hub 01 automated surgical suite]</color>",
+        "text": "<color_red>[Against your better judgment, let Doc Stevens restrain you on the Hub 01 automated surgical suite]</color>",
         "topic": "TALK_ANCILLA_DOCTOR_BOTCHED_EXODII_SURGERY_3"
       },
       {

@@ -467,7 +467,7 @@
         }
       },
       {
-        "text": "Just calling you up to to chat.  Anything new?",
+        "text": "Just calling you up to chat.  Anything new?",
         "topic": "TALK_ROBOFAC_MERC_PAT_MORALE_CHAT",
         "condition": {
           "and": [
