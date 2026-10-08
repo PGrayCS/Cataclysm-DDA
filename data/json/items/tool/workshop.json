@@ -1875,6 +1875,6 @@
     "tool_ammo": [ "battery" ],
     "faults": [ { "fault_group": "electronic_general" } ],
     "//0": "source https://www.amazon.com/Dremel-4300-9-Performance-Attachments-Accessories/dp/B01LZVVA58",
-    "//2": "volume is rounded up by less than 200ml to accomodate all the small bits you also need to carry"
+    "//2": "volume is rounded up by less than 200ml to accommodate all the small bits you also need to carry"
   }
 ]
